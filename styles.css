@@ -777,6 +777,42 @@ li::marker {
   margin-bottom: 0;
 }
 
+.zoom-intensive {
+  width: min(100%, var(--max));
+  margin: clamp(2rem, 5vw, 4rem) auto clamp(1.5rem, 4vw, 3rem);
+  display: grid;
+  grid-template-columns: minmax(260px, 0.8fr) minmax(0, 1fr);
+  gap: clamp(1rem, 3vw, 2rem);
+  align-items: stretch;
+  padding: clamp(1rem, 2.5vw, 1.5rem);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(247, 198, 0, 0.18), rgba(109, 106, 203, 0.12)),
+    var(--paper);
+}
+
+.zoom-intensive img {
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+  object-fit: cover;
+  border-radius: calc(var(--radius) - 2px);
+}
+
+.zoom-intensive div {
+  align-self: center;
+  padding: clamp(0.5rem, 2vw, 1.25rem);
+}
+
+.zoom-intensive h3 {
+  font-size: clamp(1.8rem, 3.4vw, 3.6rem);
+}
+
+.zoom-intensive p:last-child {
+  margin-bottom: 0;
+}
+
 .site-footer {
   display: flex;
   align-items: center;
@@ -826,6 +862,7 @@ li::marker {
   .agent-hero,
   .day-glance,
   .closing-offer,
+  .zoom-intensive,
   .content-grid,
   .facilitator,
   .attendance-grid,
