@@ -748,6 +748,35 @@ li::marker {
   margin-bottom: 0;
 }
 
+.closing-offer {
+  width: min(100%, var(--max));
+  margin: clamp(1.5rem, 4vw, 3rem) auto 0;
+  display: grid;
+  grid-template-columns: minmax(260px, 0.7fr) minmax(0, 1fr);
+  gap: clamp(1rem, 3vw, 2rem);
+  align-items: center;
+  padding: clamp(1rem, 2.5vw, 1.5rem);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--ink);
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.closing-offer img {
+  width: 100%;
+  min-height: 260px;
+  object-fit: cover;
+  border-radius: calc(var(--radius) - 2px);
+}
+
+.closing-offer h3 {
+  color: white;
+}
+
+.closing-offer p:last-child {
+  margin-bottom: 0;
+}
+
 .site-footer {
   display: flex;
   align-items: center;
@@ -796,6 +825,7 @@ li::marker {
   .event-hero,
   .agent-hero,
   .day-glance,
+  .closing-offer,
   .content-grid,
   .facilitator,
   .attendance-grid,
