@@ -437,6 +437,10 @@ h3 {
   padding: 1.25rem;
 }
 
+.offer-card h3 {
+  font-size: clamp(1.35rem, 1.65vw, 1.75rem);
+}
+
 .offer-card p:last-child,
 .content-block p:last-child,
 .format-card p:last-child,
