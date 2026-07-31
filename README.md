@@ -11,8 +11,6 @@ Static multi-page website for The Fractals Company, published with GitHub Pages.
 - `about.html` - founder and company context.
 - `faq.html` - program fit, logistics, boundaries, and common questions.
 - `apply.html` - shared Tally application flow.
-- `archive.html` - the complete pre-restructure single-page content, retained so no prior text, links, or image placements are lost.
-- `archive-styles.css` - matching legacy styles for `archive.html`.
 
 Program links pass context to `apply.html` through query parameters:
 
