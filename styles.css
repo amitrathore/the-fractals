@@ -138,14 +138,14 @@ nav a[aria-current="page"] {
   color: var(--ink);
 }
 
-.nav-cta {
+nav a.nav-cta {
   padding: 0.35rem 0.72rem;
   border-radius: calc(var(--radius) - 2px);
   background: var(--ink);
   color: var(--white);
 }
 
-.nav-cta:hover {
+nav a.nav-cta:hover {
   color: var(--white);
   background: var(--deep);
 }
@@ -839,7 +839,7 @@ dd {
     font-size: 0.78rem;
   }
 
-  .nav-cta {
+  nav a.nav-cta {
     padding-inline: 0.58rem;
   }
 
